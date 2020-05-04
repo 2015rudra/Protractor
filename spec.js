@@ -14,3 +14,14 @@ describe('angularjs homepage todo list', function() {
      
     });
   });
+
+  describe('One more Testcase', function()
+  {
+
+
+    it('Try Page Title Assertion', function()
+    {
+      browser.get('https://juliemr.github.io/protractor-demo/');
+      expect(browser.getTitle()).toEqual('Super Calculator');
+    });
+  });
